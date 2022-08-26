@@ -1,30 +1,34 @@
-# Password manager
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## What will you learn?
-* Various hashing and encryption strategies
-* How password managers work
-* Basic React.js
-* Basic TypeScript
+## Getting Started
 
-## Video structure
-1. Application demo
-2. Code walk-through
-3. Server setup
-4. Client setup
-5. User registration
-6. user login
-7. Vault management
+First, run the development server:
 
-## Hashing vs encryption
-* Hashing is one way - Hashed data can not be unhashed, it can simply be hashed again and compared.
-* Encryption is two way - Encrypted data can be decrypted if you know the correct string/ key.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-## Algorithms used
-* SHA256 - Predictable password hash
-* Argon2 - Unpredictable password hash for the database
-* pbkdf2 - Generate the vault key
-* AES256 - Encrypt and decrypt the vault
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-## Data flow
-<img src="./diagram.png" width="500px" /># pwmanager
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
